@@ -1,3 +1,4 @@
+```
 utilisateur (id_utilisateur, nom, prenom, email, mot_de_passe, role, langue, actif)
 primary key : id_utilisateur
 foreign key : aucune
@@ -35,3 +36,4 @@ foreign key : id_ticket → ticket(id_ticket)
 journal_admin (id_journal, id_admin, action, date_action)
 primary key : id_journal
 foreign key : id_admin → utilisateur(id_utilisateur)
+```
